@@ -1,0 +1,7 @@
+No,Amount,TaxRate,TaxAmount,Exception,ExceptionMessage
+1,100,0.01,1.00,,
+2,100,0.1,10.0,,
+3,-1,0.1,0,ArgumentOutOfRangeException,金額は正数で指定してくださいパラメーター名:amount
+4,100,1.0,0,ArgumentOutOfRangeException,税率は0.01～0.99の間で指定してくださいパラメーター名:taxRate
+5,100,0,0,ArgumentOutOfRangeException,税率は0.01～0.99の間で指定してくださいパラメーター名:taxRate
+6,a,0.01,1,,このテストデータではテストにならないよ
